@@ -1,0 +1,45 @@
+body {
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /* position: relative; */
+}
+.main_content {
+  background: rgb(213, 226, 239);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 70%;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  max-width: 30%;
+  max-height: 80%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background: white;
+}
+.content p {
+  padding: 4px 4px;
+  text-align: center;
+}
+.qrcode {
+  background: #3684fe;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 90%;
+  max-height: 60%;
+  margin: 10px 15px;
+  border-radius: 10px;
+}
