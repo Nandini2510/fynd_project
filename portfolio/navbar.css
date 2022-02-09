@@ -1,0 +1,93 @@
+* {
+  /* removing browser margins and paddings  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbarParent {
+  display: flex;
+  background: #d3eca7;
+  /* justify-content: center; */
+}
+#navItemsParent {
+  display: flex;
+  /* background: yellowgreen; */
+  flex-grow: 1;
+  align-items: center;
+}
+#logoDiv {
+  padding: 3px;
+}
+#logo {
+  height: 30px;
+  width: 40px;
+}
+#deadspace {
+  flex-grow: 1;
+}
+.navChild {
+  flex-grow: 1;
+}
+#cta {
+  padding: 3px;
+}
+#ctabtn {
+  color: #19282f;
+  background: #a1b57d;
+  border-radius: 10px;
+  border-solid: 2px;
+  padding: 5px 10px;
+}
+/* .herosection {
+ 
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  border-radius: 10px;
+  background: #f7ecde;
+} */
+
+#heroimg {
+  height: 500px;
+  width: 50vw;
+}
+
+/* .heroleft {
+  width: 50vw;
+  height: 50vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+} */
+.heroright {
+  width: 50vw;
+  height: 70vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(60, 179, 113, 0.3),
+      rgba(40, 180, 133, 0.6)
+    ),
+    url(./asset/nature1.jpg);
+  /* background-image: url(./asset/nature1.jpg); */
+  background-size: cover;
+  background-position: top;
+}
+.herobtnDiv {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.herobtn {
+  color: white;
+  background: #bb6464;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.leftcontent {
+  display: flex;
+  /* align-items: center; */
+  padding: 20px;
+}
